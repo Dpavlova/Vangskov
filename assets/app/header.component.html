@@ -1,0 +1,56 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="row">
+  <div class="col-sm-12 col-md-3" id="nav-column">
+    <nav class="navbar navbar-default navbar-top" id="navbarNav" data-toggle="collapse" data-target=".navbar-collapse">
+        <div class="container" id="nav-cont">
+            <div class="navbar-header" id="nav-header">
+              <a class="navbar-brand" routerLink='' id="logoLink">
+                <img class='d-block img-responsive' id="logo" src='/images/logo.png' alt='logo'>
+              </a>
+              
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+          </div>
+          <div id="navbar2" class="navbar-collapse collapse">
+            <ul class="nav nav-sidebar">
+              <li class="active"><a routerLink='' href='home'>Forside</a></li>
+              <li><a routerLink='about' href='about'>Om os</a></li>
+              <li class='dropright'>
+                  <a routerLink='tilbyder' class='dropdown-toggle'  data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Vi tilbyder <span class='caret'></span></a>
+                  
+                  <ul class='dropdown-menu'>
+                    <li><a href='handicap'>Handicap kørsel</a></li>
+                    <li><a routerLink='turist'>Turist kørsel</a></li>
+                    <li><a routerLink='party' >VIP og Partybusser</a></li>
+                  </ul>
+                </li>
+              <li><a routerLink='tekniskInfo' href='teknisk-info'>Teknisk Information</a></li>
+              <li><a routerLink='contact' href='contact'>Kontakt</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+    <div class="col-sm-12 col-md-9">
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>  
+    </div>
+  </div>
+  <footer class='text-center'>
+    <hr>
+    <p>&#169; Vangskov Bustrafik &nbsp; &#124; &nbsp; CVR: 26451531 &nbsp; &#124; &nbsp;  Telefon: 36 41 13 13 &nbsp; &#124; &nbsp; Valhøjs Alle 143 &nbsp; &#124; &nbsp; 2610 Rødovre </p>
+  </footer>
+  
+
+  
+  <script>
+    $("li.dropdown").click(function() {
+    $("nav.navbar" ).toggleClass( "open");
+  });
+  </script>
