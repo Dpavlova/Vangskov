@@ -1,0 +1,472 @@
+/* ========== FONT AND TEXT ==================== */
+body {
+  height:100%;
+  background-color: white;
+  font-size: 14px;
+  line-height: 1.6;;
+  font-weight: normal;
+}
+
+.content {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 15%;
+  min-height:100%;
+  position: relative;
+  background-color: transparent;
+}
+
+#mapAndInfo, #adress,
+#hours, #facebook,
+#contactInfo {
+  margin-right: 0;
+}
+
+h1 {
+  color: black;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h3 {
+  color: black;
+  font-size: 1.5em;
+  margin: 0.67em 0;
+}
+
+h4 {
+  color: black;
+  font-size: 0.2em;
+  margin: 0.67em 0;
+}
+/* ========== FONT AND TEXT ==================== */
+
+/* ========== NAVIGATION ==================== */
+  #nav-column {
+    padding-right: 0;
+  }
+
+  .nav { 
+    padding-left: 0%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .navbar-brand {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .nav > li > a {
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    border-radius: 10px 10px 10px 0px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .dropdown-menu{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-image: none;
+    background-color: none;
+    border: none;
+  }
+  
+  .dropdown-menu>li>a  {
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    border-radius: 10px 10px 10px 0px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a:active,
+    .nav>li>a:hover,
+    .nav>li>a:focus,
+    .nav>li>a:active
+  {
+      border: 1px solid white;
+      background-color: black;
+      color: white;
+      border-radius: 10px 10px 10px 0px;
+      box-shadow: none;
+      background-image: none;
+  }
+  
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+    box-shadow: none;
+  }
+  
+  #logoLink {
+    background-color: transparent;
+  }
+
+
+/* ========== NAVIGATION ==================== */  
+  
+
+@media (max-width: 1400px) {
+  .content>#contactInfo {
+    margin-right: -50px;
+  }
+}
+/*================= @MEDIA MEDIUM SCREENS ====================*/
+@media (min-width: 998px) {
+  .navbar-header {
+    float: none;
+    margin-bottom: 13%;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .navbar-default {
+    background-color: transparent;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  #nav-cont {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  #logo {
+    width: 100%;
+    box-shadow: none;
+    margin-top: -3px;
+    margin-left: 2%;
+  }
+
+  .navbar-fixed-bottom .navbar-collapse, 
+  .navbar-fixed-top .navbar-collapse, 
+  .navbar-static-top .navbar-collapse {
+    margin-top: 10px;
+    padding-left:10px
+  }
+
+  .nav { 
+    padding-left: 0%;
+    padding-right: 0;
+    padding-bottom: 1%;
+    padding-top: 8%;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  /* NAVBAR - APP COMPONENT */
+
+  /* CAROUSEL */
+  #myCarousel {
+    margin-top: 1%;
+    margin-bottom: 6%;
+    max-height: 600px;
+    max-width: 900px;
+  }
+    /* CAROUSEL */
+}
+/*================= @MEDIA MEDIUM SCREENS ====================*/
+
+/*================= @MEDIA MEDIUM SCREENS ====================*/
+@media (max-width: 997px) {
+  .navbar-header {
+    float: none;
+    margin-bottom: 170px;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .navbar-default {
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  #nav-cont {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  #logo {
+    width: 90%;
+    box-shadow: none;
+    margin-top: -3px;
+    margin-left: 2%;
+  }
+
+  .navbar-fixed-bottom .navbar-collapse, 
+  .navbar-fixed-top .navbar-collapse, 
+  .navbar-static-top .navbar-collapse {
+    padding-left:10px
+  }
+
+  /* NAVBAR - APP COMPONENT */
+
+  /* CAROUSEL */
+  #myCarousel {
+    margin-top: 1%;
+    margin-bottom: 6%;
+    max-height: 600px;
+    max-width: 900px;
+  }
+    /* CAROUSEL */
+}
+/*================= @MEDIA MEDIUM SCREENS ====================*/
+
+
+
+/*================= @MEDIA SMALL SCREENS ====================*/
+@media (max-width: 768px) {
+  .row {
+    margin-top: 4px;
+  }
+  /* NAVBAR - APP COMPONENT */
+  .navbar-default .navbar-toggle {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%);
+  }
+
+  .navbar-default {
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .navbar-brand {
+    height: 30px;
+  }
+
+  #nav-column {
+    padding-right: 0;
+  }
+
+  .navbar-header {
+    box-shadow: none;
+    margin-bottom: 5%;
+  }
+
+  #logo {
+    width: 80%;
+    float: left;
+    margin-top: 2px;
+  }
+  /* NAVBAR - APP COMPONENT */
+
+  /* CAROUSEL */
+  #myCarousel {
+    margin-top: 180px;
+    margin-bottom: 100px;
+    max-height: 200px;
+    width: auto;
+  }
+
+  .homePage {
+    margin-left: 70px;
+    margin-bottom: 150px;
+  }
+  /* CAROUSEL */
+
+}
+/*================= @MEDIA SMALL SCREENS ====================*/
+
+
+
+
+/*================= @MEDIA SMALL MOBILE SCREENS ====================*/
+@media (max-width: 370px) {
+  /* NAVBAR - APP COMPONENT */
+  #navbarNav {
+    width: 100%;
+    background-image: none;
+    box-shadow: none;
+    border: none;
+    margin-top: 1%;
+  }
+  .navbar-default {
+    width: 100%;
+  }
+  .navbar-default .navbar-toggle {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+  }
+
+  .navbar-brand {
+    height: 20px;
+  }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 11px;
+    height: 2px;
+    border-radius: 1px;
+  }
+
+  .navbar-header {
+    box-shadow: none;
+  }
+
+  #logo {
+    width: 80%;
+    float: left;
+    transform: translateY(30%);
+  }
+  /* NAVBAR - APP COMPONENT */
+
+  /* CAROUSEL */
+  #myCarousel {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-height: 200px;
+    width: auto;
+  }
+
+  .homePage {
+    margin-left: 70px;
+    margin-bottom: 150px;
+  }
+  /* CAROUSEL */
+
+}
+/*================= @MEDIA SMALL MOBILE SCREENS ====================*/
+
+
+
+.hr {
+  border: 1px solid black;
+  background-color: black;
+}
+
+
+
+/* ========== ABOUT COMPONENT ==================== */
+#aboutText, #tekniskText {
+  margin-top: -1.5%;
+  margin-left: 3%;
+}
+
+.employee {
+  float: left;
+  width: 20%;
+  padding-bottom: 1%;
+}
+
+.cursive {
+  font-style: italic;
+}
+
+.aboutEmployee {
+  float: left;
+  margin-left: 5%;
+}
+
+.employee img{
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+/* ========== FORM CONTACT COMPONENT ==================== */
+/*columns*/
+.contactPage .col-sm-12, .contactPage .col-md-6 {
+  float: left;
+  padding-bottom: 20px;
+}
+
+.contactPage {
+  margin-bottom: 60px;
+}
+
+#contactInfo {
+  margin-left: 5px;  
+  margin-top: 1px;
+  width: 100%;
+}
+
+#contactForm{
+  margin-left: 2.5%;
+}
+
+#message {
+  height: 100px;
+}
+.col .formLabel {
+  width: 20%;
+}
+/*columns*/
+
+/*Send button*/
+.sendBtnCol {
+  float: right;
+}
+
+#submitBtn {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 5%;
+  padding: 2%;
+}
+/*Send button*/
+
+/*Map and info underneath it*/
+#mapAndInfo {
+  width: 40%;
+}
+
+#mapAndInfo label {
+  float: left;
+  width: 100%;
+}
+
+#fbContainer {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  width: 30%;
+}
+/*Map and info underneath it*/
+
+/*Input and texarea*/
+input {
+  float: left;
+  width: 100%;
+  padding-right: 10%;
+}
+
+textarea {
+  float: left;
+  width: 100%;
+  padding-right: 10%;
+}
+/*Input and texarea*/
+
+/* ========== FOOTER - APP COMPONENT ==================== */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-right: 2%;
+  background-color: white;
+  text-align: center;
+}
