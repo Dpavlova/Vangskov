@@ -124,7 +124,7 @@ h4 {
 @media (min-width: 998px) {
   .navbar-header {
     float: none;
-    margin-bottom: 13%;
+    margin-bottom: 30px;
     background-color: transparent;
     box-shadow: none;
   }
@@ -147,7 +147,7 @@ h4 {
   #logo {
     width: 100%;
     box-shadow: none;
-    margin-top: -3px;
+    margin-top: 10px;
     margin-left: 2%;
   }
 
@@ -184,7 +184,7 @@ h4 {
 @media (max-width: 997px) {
   .navbar-header {
     float: none;
-    margin-bottom: 170px;
+    margin-bottom: 100px;
     background-color: transparent;
     box-shadow: none;
   }
@@ -206,7 +206,7 @@ h4 {
   #logo {
     width: 90%;
     box-shadow: none;
-    margin-top: -3px;
+    margin-top: 10px;
     margin-left: 2%;
   }
 
@@ -261,7 +261,7 @@ h4 {
 
   .navbar-header {
     box-shadow: none;
-    margin-bottom: 5%;
+    margin-bottom: 3px;
   }
 
   #logo {
